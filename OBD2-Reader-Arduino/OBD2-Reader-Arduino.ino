@@ -64,7 +64,7 @@ void loop() {
   D2 = CAN.read(); // Sua resposta está pronta, logo: D2 = 0;
   D1 = CAN.read(); // D1 = 0;
   D0 = CAN.read(); // D0 = 0;
-
+  // teste alteracao
   // Se temos as informações úteis do RPM, podemos calculá-lo! certo? logo:
   //RPM = (((float)D4 * 256.0) + float(D3)) / 4.0;
   //VELO = (float)D4;
